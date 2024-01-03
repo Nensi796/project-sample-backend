@@ -1,0 +1,6 @@
+# node.js
+node_modules/
+
+# project files
+dist
+build

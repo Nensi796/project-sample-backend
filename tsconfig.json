@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "sourceMap": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "strict": false,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@api/*": ["./src/api/*"],
+      "@config/*": ["./src/config/*"],
+      "@gateway/*": ["./src/gateway/*"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@operations/*": ["./src/operations/*"],
+      "@route/*": ["./src/route/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@services/*": ["./src/services/*"],
+      "@validation/*": ["./src/validation/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "./node_modules"]
+}
